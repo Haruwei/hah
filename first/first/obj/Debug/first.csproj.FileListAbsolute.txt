@@ -13,3 +13,18 @@ C:\Users\student\Desktop\WPF1, 2 Serbeev\first\first\obj\Debug\first.csproj.Gene
 C:\Users\student\Desktop\WPF1, 2 Serbeev\first\first\obj\Debug\first.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\WPF1, 2 Serbeev\first\first\obj\Debug\first.exe
 C:\Users\student\Desktop\WPF1, 2 Serbeev\first\first\obj\Debug\first.pdb
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\bin\Debug\first.exe.config
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\bin\Debug\first.exe
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\bin\Debug\first.pdb
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.csproj.AssemblyReference.cache
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\MainWindow.g.cs
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\App.g.cs
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first_MarkupCompile.cache
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first_MarkupCompile.lref
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\MainWindow.baml
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.g.resources
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.Properties.Resources.resources
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.csproj.GenerateResource.cache
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.csproj.CoreCompileInputs.cache
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.exe
+C:\Users\AkaneLov3r\Desktop\ффывфв\first\first\obj\Debug\first.pdb

@@ -11,27 +11,31 @@
             <ComboBoxItem Content="DarkKhaki"/>
         </ComboBox>
         <Menu x:Name="menu" Background="White" BorderBrush="Aqua" BorderThickness="1" Margin="0,0,707,387">
-            <MenuItem Header="_Настройки" Height="20" Width="80">
-                <MenuItem x:Name="ChangeBack" Header="_Сменить фон"/>
-                <MenuItem x:Name="Info" Header="О разработичке"/>
+            <MenuItem Header="Настройки" Height="20" Width="80" MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля">
+                <MenuItem x:Name="ChangeBack" Header="Сменить фон"  MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля">
+                    <MenuItem x:Name="DarkSeaGreen" Header="DarkSeaGreen" MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля"/>
+                    <MenuItem x:Name="Khaki" Header="khaki" MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля"/>
+                    <MenuItem x:Name="DarkKhaki" Header="DarkKhaki" MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля"/>
+                </MenuItem>
+                <MenuItem x:Name="Info" Header="О разработичке" MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля"/>
                 <Separator></Separator>
-                <MenuItem x:Name="Close" Header="Закрыть окно"/>
+                <MenuItem x:Name="Close" Header="Закрыть окно" MouseEnter="ВходВПоле" MouseLeave="ВыходИзПоля"/>
             </MenuItem>
         </Menu>
-        <ToolBar Margin="645,0,0,373">
-            <Button x:Name="ChangeBack2" Height="42" Width="42" RenderTransformOrigin="-0.167,0.643">
+        <ToolBar Margin="628,0,0,373">
+            <Button x:Name="Цвета" Height="42" Width="42" RenderTransformOrigin="-0.167,0.643" MouseEnter="Вход" MouseLeave="Выход">
                 <Image Source="https://habrastorage.org/web/2fd/1cc/957/2fd1cc957fe149619c0eb30dc7c95a42.png" RenderTransformOrigin="-0.25,0.528"/>
             </Button>
-            <Button x:Name="Info2" Height="40" Width="40" HorizontalAlignment="Left">
+            <Button x:Name="Инфа" Height="40" Width="40" HorizontalAlignment="Left" MouseEnter="Вход" MouseLeave="Выход">
                 <Image Source="https://shablon.klev.club/uploads/posts/2024-09/shablon-klev-club-ksha-p-shabloni-chelovek-do-plech-10.jpg" Height="35" Width="34" RenderTransformOrigin="0.55,-1.083"/>
             </Button>
-            <Button x:Name="Close2">
+            <Button x:Name="Закрыть" Height="102" Width="43" MouseEnter="Вход" MouseLeave="Выход">
                 <Image Source="https://w7.pngwing.com/pngs/913/548/png-transparent-multiplication-sign-symbol-mathematical-notation-symbol-miscellaneous-angle-sign.png"/>
             </Button>
         </ToolBar>
         <StatusBar DockPanel.Dock="Bottom" Margin="0,391,0,0">
-            <StatusBarItem>
-                <TextBlock Text="Выбрана клавиша"/>
+            <StatusBarItem x:Name="statusBar" Margin="0,-9,0,0">
+                <StatusBarItem x:Name="statusBarItem"/>
             </StatusBarItem>
         </StatusBar>
     </Grid>
