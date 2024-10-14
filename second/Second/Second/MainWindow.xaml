@@ -1,0 +1,30 @@
+﻿<Window x:Class="Second.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Графический редактор" Height="600" Width="800">
+    <Grid>
+        <InkCanvas EditingMode="None" Name="DrawArea" Background="White" Margin="0,0,124,0"/>
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
+            <TextBlock Text="Выбор цвета:" />
+            <ComboBox Name="ColorPicker" SelectionChanged="СменаЦвета">
+                <ComboBoxItem Content="Черный" Tag="Black" IsSelected="True"/>
+                <ComboBoxItem Content="Красный" Tag="Red"/>
+                <ComboBoxItem Content="Зеленый" Tag="Green"/>
+                <ComboBoxItem Content="Синий" Tag="Blue"/>
+                <ComboBoxItem Content="Желтый" Tag="Yellow"/>
+                <ComboBoxItem Content="Фиолетовый" Tag="Purple"/>
+            </ComboBox>
+
+            <TextBlock Text="Размер кисти:" />
+            <Slider Name="BrushSizeSlider" Minimum="1" Maximum="20" Value="5" TickFrequency="1" IsSnapToTickEnabled="True" Cursor="Hand" ValueChanged="РазмерКисти"/>
+
+            <TextBlock Text="Режим работы:" />
+            <StackPanel>
+                <RadioButton Name="DrawMode" Content="Рисование" GroupName="Режимы" Checked="Проверка_режима"/>
+                <RadioButton Name="EditMode" Content="Редактирование" GroupName="Режимы" Checked="Проверка_режима"/>
+                <RadioButton Name="DeleteMode" Content="Удаление" GroupName="Режимы" Checked="Проверка_режима"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

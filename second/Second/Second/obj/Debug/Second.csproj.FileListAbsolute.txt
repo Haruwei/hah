@@ -1,0 +1,14 @@
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\App.g.cs
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second_MarkupCompile.cache
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.g.resources
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.Properties.Resources.resources
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.csproj.GenerateResource.cache
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\bin\Debug\Second.exe.config
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\bin\Debug\Second.exe
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\bin\Debug\Second.pdb
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.exe
+C:\Users\student\Desktop\123\hah\WPF12Serbeev\second\Second\Second\obj\Debug\Second.pdb
